@@ -1,0 +1,19 @@
+name: semantic_segmentation
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python>=3.7
+  - pip
+  - pytorch
+  - torchvision
+  - numpy
+  - pip3:
+    - pytorch-ignite
+    - opencv-python
+    - pycocotools
+    - tensorboard
+    - albumentations 
+    - yapf
+    - pytest
+    - labelme
